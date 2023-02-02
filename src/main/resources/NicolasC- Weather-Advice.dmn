@@ -23,9 +23,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_071DCBDE-0D33-4DCE-BBC7-CADCA5FAE88B" name="Name" typeRef="string"/>
   </dmn:inputData>
-  <dmn:decision id="_F643114E-A96C-48DD-8158-B28473330ADA" name="Daily-Advice">
+  <dmn:decision id="_F643114E-A96C-48DD-8158-B28473330ADA" name="Daily-Advice-Ncastelb">
     <dmn:extensionElements/>
-    <dmn:variable id="_D4956857-DFCC-4FE7-B72A-BC80D4567907" name="Daily-Advice" typeRef="string"/>
+    <dmn:variable id="_D4956857-DFCC-4FE7-B72A-BC80D4567907" name="Daily-Advice-Ncastelb" typeRef="string"/>
     <dmn:informationRequirement id="_EB6CE92F-1D88-402A-9418-E044EBEB08B9">
       <dmn:requiredInput href="#_A6C71D58-C8C9-4169-A2C6-954BB74C2EF6"/>
     </dmn:informationRequirement>
@@ -167,7 +167,7 @@ else "Hello "+Name+"! " +Weather-Advice</dmn:text>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="436" y="110" width="100" height="50"/>
+        <dc:Bounds x="436" y="110" width="147" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_C7E532EE-A206-4E63-AF22-786DB3EA6A47" dmnElementRef="_C7E532EE-A206-4E63-AF22-786DB3EA6A47" isCollapsed="false">
@@ -190,7 +190,7 @@ else "Hello "+Name+"! " +Weather-Advice</dmn:text>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_EB6CE92F-1D88-402A-9418-E044EBEB08B9-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_EB6CE92F-1D88-402A-9418-E044EBEB08B9">
         <di:waypoint x="486" y="357"/>
-        <di:waypoint x="486" y="160"/>
+        <di:waypoint x="509.5" y="160"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_30364548-61BC-4E24-84D0-CA4226548C0B" dmnElementRef="_30364548-61BC-4E24-84D0-CA4226548C0B">
         <di:waypoint x="301.5" y="253"/>
