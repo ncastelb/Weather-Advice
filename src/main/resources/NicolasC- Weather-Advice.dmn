@@ -8,15 +8,16 @@
     </dmn:allowedValues>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_39D204DE-DA69-42A9-BB53-114F1DEC990E" name="weather" isCollection="false">
+    <dmn:itemComponent id="_4ADBED4F-F8DB-4B9F-A99E-E72ED0F78B9B" name="location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_9602BACD-5AC4-4218-8817-132AD790C8CF" name="temperature" isCollection="false">
       <dmn:typeRef>Temperature</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_D95837AE-B0BD-40D9-94D2-229F36956467" name="rainForecast" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_3957B484-4ABA-42A8-BAA9-BA0DE0978263" name="stormAlert" isCollection="false">
-      <dmn:typeRef>boolean</dmn:typeRef>
-    </dmn:itemComponent>
+    <dmn:itemComponent id="_3957B484-4ABA-42A8-BAA9-BA0DE0978263" name="stormAlert" isCollection="false"/>
   </dmn:itemDefinition>
   <dmn:inputData id="_A6C71D58-C8C9-4169-A2C6-954BB74C2EF6" name="Name">
     <dmn:extensionElements/>
